@@ -1,38 +1,101 @@
-
 <!DOCTYPE html>
 <html lang="tr">
-<head>
-   <meta charset="utf-8" /> 
-   <meta name=”viewport” content=”width=device-width, initial-scale=1.0”> 
-   <title>HTML5 EĞİTİMLERİ</title>
 
-   <style type="text/css">
-     body {
-       max-width: 1200px;
-       margin: auto;
-     }
-     header, nav, section, article, footer {
+<head>
+  <meta charset="utf-8" />
+  <meta name=”viewport” content=”width=device-width, initial-scale=1.0”>
+  <title>HTML5 EĞİTİMLERİ</title>
+
+  <style type="text/css">
+    body {
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    header,
+    nav,
+    section,
+    article,
+    footer {
       border: 1px solid grey;
       margin: 25px;
       padding: 10px;
-     }
+    }
 
-     nav ul li,
-     nav ol li { 
-       display: inline; 
-      }
-   </style>
+    nav ul li,
+    nav ol li {
+      display: inline;
+    }
+  </style>
 
 </head>
 
 <body>
 
-  <!-- Header  -->  
-  <!-- Menu  --> 
- 
-  <!-- Content  --> 
+  <!-- Header  -->
+  <header>
+    <h1>HTML İSKELET YAPISI</h1>
+  </header>
 
-  <!-- Footer  -->  
 
+  <!-- Menu  -->
+  <nav>
+    <ul>
+      <li>
+        <a href="#">Anasayfa</a>
+      </li>
+      <li>
+        <a href="#">Hakkımızda</a>
+      </li>
+      <li>
+        <a href="#">Kalite</a>
+      </li>
+      <li>
+        <a href="#">İletişim</a>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Content  -->
+  <section>
+    <h1>Ünlü Ülkeler</h1>
+    <article>
+      <h1>Türkiye</h1>
+      <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. </b>
+        <i>Deleniti laborum sunt, quis architecto velit,</i>
+        <u>temporibus magni at quo ex earum minima voluptates voluptate ratione.
+          Officia odio quas voluptatum eligendi nobis.</u>
+      </p>
+    </article>
+    <article>
+      <h1>İrlanda</h1>
+      <p><b>Lorem ipsum dolor sit amet consectetur adipisicing elit. </b>
+        <i>Deleniti laborum sunt, quis architecto velit,</i>
+        <u>temporibus magni at quo ex earum minima voluptates voluptate ratione.
+          Officia odio quas voluptatum eligendi nobis.</u>
+      </p>
+    </article>
+  </section>
+
+  <section>
+    <h1>İletişim</h1>
+    <label for="username">Kullanıcı Adı:</label>
+    <input type="text" id="username">
+    <label for="mail">Mail:</label>
+    <input type="email" id="mail">
+    <label for="topic">Konu</label>
+    <input type="text" id="topic">
+    <label for="check">Konu :</label>
+    <input type="checkbox" id="check">
+    <button type="reset">Temizle</button>
+    <button type="submit">Gönder</button>
+  </section>
+
+  <!-- Footer  -->
+  <footer>
+    <p>&copy; 2022 Tüm hakları saklıdır.</p>
+  </footer>
 </body>
+</body>
+
 </html>
